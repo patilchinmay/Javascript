@@ -8,7 +8,7 @@ function foo(num){
     this.count++;
     // Here, 'this' will not refer to the function foo (itself).
 }
-
+ 
 foo.count = 0;
 
 var i;
