@@ -10,3 +10,5 @@ function log2(){
 
 setTimeout(log1, time1);
 setTimeout(log2, time2);
+
+// There is no guarantee that log1 or log2 will run first. It totally depends on the random time. The order of execution is non deterministic.
