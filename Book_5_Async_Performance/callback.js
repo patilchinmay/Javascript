@@ -1,4 +1,5 @@
 const time = Math.floor(Math.random() * 3001);     // returns a random integer from 0 to 3000 milisecond
+
 console.log(time);
 
 function foo(){
