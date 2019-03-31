@@ -20,7 +20,7 @@ function double(w){
     return w+w;
 }
 
-let generatorFunction = async() => {
+let asyncFunction = async() => {
     try{
         let sum = await add(2,4);
         console.log(sum);
@@ -36,4 +36,4 @@ let generatorFunction = async() => {
     }
 }
 
-generatorFunction();
+asyncFunction();
